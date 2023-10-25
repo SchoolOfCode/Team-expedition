@@ -1,11 +1,13 @@
 import express from "express";
+import cors from "cors";
+import { icebreakerRoutes } from "./routes/icebreakerRoutes.js";
 
 export const app = express();
-const PORT = 4000;
 
 app.use(express.json());
+// Enable CORS for all routes
+app.use(cors());
 
-import { icebreakerRoutes } from "./routes/icebreakerRoutes.js";
 // import { topicsRoutes } from "./routes/topicsRoutes.js";
 
 app.use("/icebreaker", icebreakerRoutes);
