@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "starter_question": "What inspired you to start programming?"
+    },
+    {
+      "id": 2,
+      "starter_question": "Which programming languages are your favorites, and why?"
+    },
+    {
+      "id": 3,
+      "starter_question": "Have you ever worked on an open-source project?"
+    },
+    {
+      "id": 4,
+      "starter_question": "What's the most challenging bug you've ever had to fix?"
+    },
+    {
+      "id": 5,
+      "starter_question": "Do you prefer front-end or back-end development, and why?"
+    },
+    {
+      "id": 6,
+      "starter_question": "What's your favorite development tool or IDE?"
+    },
+    {
+      "id": 7,
+      "starter_question": "Have you ever built a mobile app, and if so, which platform did you use?"
+    },
+    {
+      "id": 8,
+      "starter_question": "How do you stay up-to-date with the latest programming trends and technologies?"
+    },
+    {
+      "id": 9,
+      "starter_question": "What's the most exciting project you've worked on recently?"
+    },
+    {
+      "id": 10,
+      "starter_question": "Do you have any programming pet peeves or coding practices you can't stand?"
+    },
+    {
+      "id": 11,
+      "starter_question": "Have you ever mentored or taught someone to code? What was that experience like?"
+    },
+    {
+      "id": 12,
+      "starter_question": "What's your preferred method for debugging code?"
+    },
+    {
+      "id": 13,
+      "starter_question": "Are there any programming languages or technologies you're interested in learning in the future?"
+    },
+    {
+      "id": 14,
+      "starter_question": "How do you handle burnout or stay motivated during long coding sessions?"
+    },
+    {
+      "id": 15,
+      "starter_question": "What's your opinion on the future of AI and machine learning in programming?"
+    },
+    {
+      "id": 16,
+      "starter_question": "What's the most valuable lesson you've learned in your programming career so far?"
+    },
+    {
+      "id": 17,
+      "starter_question": "Do you enjoy attending tech conferences or meetups, and if so, which ones have you found most beneficial?"
+    },
+    {
+      "id": 18,
+      "starter_question": "How do you balance work and life as a programmer?"
+    },
+    {
+      "id": 19,
+      "starter_question": "What's the best piece of advice you'd give to someone starting their programming journey?"
+    },
+    {
+      "id": 20,
+      "starter_question": "If you could build any software application, what would it be?"
+    }
+  ]
+
+
+  

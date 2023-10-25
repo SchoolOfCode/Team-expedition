@@ -1,1 +1,1 @@
-# Team-expedition
+Feel free to delete this and start from scratch.
