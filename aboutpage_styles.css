@@ -62,7 +62,7 @@ img {
 }
 
 .secondContainer {
-  background: white;
+  background: #bde3ff;
   width: 305px;
   height: 320px;
   display: flex;
@@ -72,7 +72,11 @@ img {
   flex-direction: column;
 }
 
-.groupPhoto {
-  height: 200px;
-  width: auto;
+#teamPhoto {
+  display: flex;
+  height: 240px;
+  width: 400px;
+  margin: auto;
+  /* justify-content: center;
+  align-items: center; */
 }
