@@ -43,6 +43,15 @@ img .socLogoButtonLanding {
   width: 300px;
 }
 
+#smallerButton {
+  background-color: #07122a;
+  color: white;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 50px;
+  width: 150px;
+}
+
 .iceBreakerRequest {
   display: flex;
   justify-content: center;
@@ -57,3 +66,22 @@ img .socLogoButtonLanding {
   border: 0.15rem solid #07122a;
   margin: auto;
 }
+
+.thirdContainer {
+  width: 305px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.fourthContainer {
+  background: white;
+  width: 305px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  border: 0.15rem solid #07122a;
+  margin: auto;
+}
+
