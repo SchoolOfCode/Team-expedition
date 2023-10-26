@@ -15,13 +15,15 @@ async function retrieveIceBreaker() {
     }
   );
 
-  if (response.ok) {
-    const icebreakerData = await response.json();
-    const icebreakerText = icebreakerData.starter_question;
-    return icebreakerText;
-  } else {
-    console.log("Error: " + response.status);
+  if (!response.ok) {
+    console.error(`Status: ${response.status}`);
+    return;
   }
+
+  // Extracting the data and text from the json
+  const data = await response.json();
+  const text = data.starter_question;
+  return text;
 }
 
 // Function to update the DOM with the provided data
