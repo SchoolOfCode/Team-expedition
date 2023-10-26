@@ -15,6 +15,12 @@ img {
   justify-content: center;
 }
 
+.socLogoButtonLanding {
+  display: flex;
+  justify-content: center;
+  height: 300%;
+}
+
 .transparent-button {
   background: url("torteelogo.png") no-repeat;
   border: none;
