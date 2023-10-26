@@ -1,11 +1,10 @@
 // Import the pg (node-postgres) library
 import pg from "pg";
-import dotenv from "dotenv";
 
-dotenv.config();
 // Retrieve the database connection string from environment variables
 //const connectionString = process.env.DB_CONNECTION_STRING;
-const connectionString = process.env.DB_CONNECTION_STRING;
+const connectionString =
+  "postgres://tryfeacd:Gdnu52n15U5d-zkIo7bl_IVCTqAYNe51@tyke.db.elephantsql.com/tryfeacd";
 
 // Check if the connection string is not defined, and if so, throw an error
 if (!connectionString) {
