@@ -2,7 +2,7 @@
 import pg from "pg";
 
 // Retrieve the database connection string from environment variables
-//const connectionString = process.env.DATABASE_URL;
+//const connectionString = process.env.DB_CONNECTION_STRING;
 const connectionString =
   "postgres://tryfeacd:Gdnu52n15U5d-zkIo7bl_IVCTqAYNe51@tyke.db.elephantsql.com/tryfeacd";
 

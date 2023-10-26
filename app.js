@@ -17,12 +17,12 @@ app.use("/icebreaker", icebreakerRoutes);
 
 export async function getQuestionsById(id) {
   const queryText = "SELECT * FROM questions WHERE id = $1";
-  const result = await pool.query(question, [id]);
+  const result = await pool.query(queryText, [id]);
   return result.rows[0] || null;
 }
 
 //For retrieving questions from the Postgres database
-app.get("/question/id", async function (req, res) {
+app.get("/questions/:id", async function (req, res) {
   const id = req.params.id;
   const questions = await getQuestionsById(id);
   if (!questions) {
