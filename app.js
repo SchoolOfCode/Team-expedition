@@ -2,6 +2,9 @@ import express from "express";
 import cors from "cors";
 import { icebreakerRoutes } from "./routes/icebreakerRoutes.js";
 import { pool } from "./database_connection.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export const app = express();
 
