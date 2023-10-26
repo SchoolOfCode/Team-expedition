@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { icebreakerRoutes } from "../routes/icebreakerRoutes.js";
-import { pool } from "pg";
+
 
 export const app = express();
 
@@ -29,11 +29,9 @@ app.get("/question/id", async function (req, res) {
     const id = req.params.id;
     const questions = await getQuestionsById(id);
     if (!questions) {
-       return res
-       .status(404)
-       .json ({ status: "fail", data: { msg: "Question not found"}});
-   ​
+      return res
+      .status(404)
+      .json ({ status: "fail", data: { msg: "Question not found"}});
     }
     res.status(200).json({status: "Success", data: questions});
-   ​
-   });
+  });
