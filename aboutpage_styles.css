@@ -1,0 +1,74 @@
+body {
+  background-color: #ffffff;
+  margin: 10px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+}
+
+.socLogoButton {
+  display: flex;
+  justify-content: center;
+}
+
+.socLogoButtonLanding {
+  display: flex;
+  justify-content: center;
+  height: 300%;
+}
+
+.transparent-button {
+  background: url("torteelogo.png") no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.question {
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000;
+  font-size: 25px;
+  color: #07122a;
+  display: flex;
+  justify-content: center;
+}
+
+#iceBreakerButton {
+  background-color: #07122a;
+  color: white;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 50px;
+  width: 300px;
+}
+
+.creators {
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.boldText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.iceBreakerRequest {
+  display: flex;
+  justify-content: center;
+}
+
+.secondContainer {
+  background: white;
+  width: 305px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+
+  
+
+  margin: auto;
+}
