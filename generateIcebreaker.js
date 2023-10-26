@@ -38,3 +38,13 @@ const iceBreakerButton = document.getElementById("iceBreakerButton");
 
 // Sets up a click event listener to fetch and display a new icebreaker upon clicking the button
 iceBreakerButton.addEventListener("click", getAndDisplayIceBreaker);
+
+document
+  .getElementById("iceBreakerButton")
+  .addEventListener("click", function () {
+    // Get the element with the id 'iceBreakerText'
+    const iceBreakerText = document.getElementById("iceBreakerText");
+
+    // Add a class to change the text color
+    iceBreakerText.classList.add("colorChanged");
+  });

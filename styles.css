@@ -52,3 +52,18 @@ img {
   border: 0.15rem solid #07122a;
   margin: auto;
 }
+
+.secondContainer p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Initial text color */
+#iceBreakerText {
+  color: grey;
+}
+
+/* Changed text color */
+#iceBreakerText.colorChanged {
+  color: black; /* Change to the desired color */
+}
