@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #bde3ff;
   margin: 10px;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -67,8 +67,12 @@ img {
   height: 320px;
   display: flex;
   justify-content: center;
-
-  
-
+  align-items: center;
   margin: auto;
+  flex-direction: column;
+}
+
+.groupPhoto {
+  height: 200px;
+  width: auto;
 }
