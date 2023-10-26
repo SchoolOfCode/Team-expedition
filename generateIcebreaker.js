@@ -15,6 +15,7 @@ async function retrieveIceBreaker() {
     }
   );
 
+  // Error handling
   if (!response.ok) {
     console.error(`Status: ${response.status}`);
     return;
