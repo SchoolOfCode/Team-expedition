@@ -58,7 +58,7 @@
 
 .questionsContainer {
   background: white;
-  width: 400px;
+  width: auto;
   height: 600px;
   display: flex;
   border: 0.15rem solid #07122a;
@@ -68,5 +68,8 @@
 
 .questionsList li {
   list-style: none;
-  padding-bottom: 60px;
+}
+
+.questionsList ul {
+  list-style: none;
 }
