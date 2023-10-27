@@ -23,7 +23,16 @@
         </a>
       </div>
       <br />
-      <div class="dropdown">
+      <div class="question-container">
+        <p>Need some ideas to ask your mentor?</p>
+        <select name="week" id="week-selector" class="button select-button">
+          <option value="" disabled selected>Select Week</option>
+          <option value="1">Week 1</option>
+          <option value="2">Week 2</option>
+          <option value="3">Week 3</option>
+        </select>
+      </div>
+      <!-- <div class="dropdown">
         <p>Need some ideas to ask your mentor?</p>
         <button class="dropbtn">Select Week</button>
         <div class="dropdown-content">
@@ -33,7 +42,7 @@
           <a href="#">Week 4</a>
           <a href="#">Week 5</a>
         </div>
-      </div>
+      </div> -->
       <br />
       <div class="iceBreakerRequest">
         <button type="button" id="iceBreakerButton">Refresh</button>
@@ -42,7 +51,7 @@
         <p class="question">Prompt questions:</p>
         <ul class="questionsList">
           <li id="Question-1">
-            <p></p>
+            <p id="question-bulk"></p>
           </li>
           <!-- <li id="Question-2">
             Q2.
@@ -66,5 +75,6 @@
         </ul>
       </div>
     </main>
+    <script type="module" src="../questions.js"></script>
   </body>
 </html>
