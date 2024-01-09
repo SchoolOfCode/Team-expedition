@@ -12,7 +12,7 @@ weekSelector.addEventListener("change", async function (event) {
   clearQuestions();
   const week = event.target.value;
   const response = await fetch(
-    `https://some-new-api.onrender.com/questions/${week}`
+    `https://team-expedition-api.onrender.com/questions/${week}`
 
     // // Uncomment the line below and comment the line above to use the local API
     // `http://localhost:4000/questions/${week}`

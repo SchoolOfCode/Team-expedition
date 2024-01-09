@@ -7,7 +7,7 @@ async function getAndDisplayIceBreaker() {
 // Function to asynchronously retrieve data from API
 async function retrieveIceBreaker() {
   const response = await fetch(
-    "https://some-new-api.onrender.com/icebreaker/conversation_starter",
+    "https://team-expedition-api.onrender.com/icebreaker/conversation_starter",
 
     // // Uncomment the line below and comment the line above to use the local API
     // "http://localhost:4000/icebreaker/conversation_starter",
