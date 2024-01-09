@@ -2,12 +2,12 @@
   "name": "bc15-w8-project-back-end-team_everest",
   "version": "1.0.0",
   "description": "Feel free to delete this and start from scratch.",
-  "main": "./db/app.js",
+  "main": "./app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",

@@ -1,5 +1,3 @@
-import { API_URL } from "./constants.js";
-
 // Function to display data
 async function getAndDisplayIceBreaker() {
   const iceBreaker = await retrieveIceBreaker();
@@ -8,11 +6,17 @@ async function getAndDisplayIceBreaker() {
 
 // Function to asynchronously retrieve data from API
 async function retrieveIceBreaker() {
-  const response = await fetch(`${API_URL}/icebreaker/conversation_starter`, {
-    headers: {
-      Accept: "application/json",
-    },
-  });
+  const response = await fetch(
+    "https://some-new-api.onrender.com/icebreaker/conversation_starter",
+
+    // // Uncomment the line below and comment the line above to use the local API
+    // "http://localhost:4000/icebreaker/conversation_starter",
+    {
+      headers: {
+        Accept: "application/json",
+      },
+    }
+  );
 
   // Error handling
   if (!response.ok) {
